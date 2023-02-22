@@ -35,10 +35,10 @@ export const App = () => {
 
               <div className="pages">
                 <Routes>
-                  <Route exact path='https://akashkhan0.github.io/my_portfolio/' element={<About />} />
-                  <Route exact path='/service' element={<Service />} />
-                  <Route exact path='/review' element={<Review />} />
-                  <Route exact path='/contact' element={<Contact />} />
+                  <Route path='/' element={<About />} />
+                  <Route path='/service' element={<Service />} />
+                  <Route path='/review' element={<Review />} />
+                  <Route path='/contact' element={<Contact />} />
                 </Routes>
               </div>
 
