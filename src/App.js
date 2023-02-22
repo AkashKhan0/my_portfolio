@@ -34,7 +34,6 @@ export const App = () => {
 
 
               <div className="pages">
-                <About />
                 <Routes>
                   <Route path='/' element={<About />} />
                   <Route path='/service' element={<Service />} />
