@@ -1,0 +1,33 @@
+.fullAbout{
+    width: 100%;
+    height: 100%;
+    background-color: #00000059;
+    transition: 0.3s;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.fullAbout:hover{background-color: #52525259;}
+.about_content{
+    width: 100%;
+    height: auto;
+}
+.about_info{
+    margin: 20px 0px;
+    font-size: 1.2rem;
+    color: rgb(150, 150, 150);
+}
+button{
+    padding: 8px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 0, 0.39);
+    transition: 0.3s;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 0, 0.39);
+}
+button:hover{background-color: #52525259;}
+#b{color: rgba(255, 255, 43, 0.664);}

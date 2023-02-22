@@ -1,0 +1,35 @@
+.fullHeader{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #00000059;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.fullHeader:hover{background-color: #52525259;}
+.logo{
+    width: 40%;
+}
+.logo > img{
+    width: 50px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.menus{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.scl_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px;
+}
+.scl_link:hover{color: #fff;}

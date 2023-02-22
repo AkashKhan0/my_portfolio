@@ -1,0 +1,12 @@
+.fullReview{
+    width: 100%;
+    height: 100%;
+    background-color: #00000059;
+    transition: 0.3s;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.fullReview:hover{background-color: #52525259;}

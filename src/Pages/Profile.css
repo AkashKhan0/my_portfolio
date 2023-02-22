@@ -1,0 +1,70 @@
+
+.fullProfile{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 5px;
+    border-radius: 8px;
+    background-color: #00000059;
+    transition: 0.3s;
+}
+.fullProfile:hover{background-color: #52525259;}
+.my_photo{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px solid grey;
+    overflow: hidden;
+    margin: 10px 0px;
+    background-color: #fff;
+}
+.my_photo > img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.name{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.title{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu > ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+#active{
+    color: #797979;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#active:hover{
+    color: #ffffff;
+}
+#profile_icon{
+    color: yellow;
+    margin: 0px 10px;
+}
